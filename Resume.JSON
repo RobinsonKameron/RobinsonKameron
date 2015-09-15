@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Kameron Robinson",
+    "label": "Full stack web developer & Student",
+    "picture": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/11914252_1001296629914778_6298955244425644358_o.jpg",
+    "email": "ka12@umbc.edu",
+    "phone": "(667) 203-5897",
+    "website": "Coming soon",
+    "summary": "Kameron was born in Baltimore city at JHU. He soon ventured into the world as a curious, sometimes mischievous kid. He discovered his love for programming in his sophomore year of college and is now pursuing a degree in Information Systems at University of Maryland Baltimore County. He is always learning new things and working hard to improve old skills!",
+    "location": {
+      "address": "",
+      "postalCode": "MD 21244",
+      "city": "Baltimore",
+      "countryCode": "US",
+      "region": "Maryland"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "KameronAR",
+        "url": "www.twitter.com/KameronAR"
+      },
+      {
+        "network": "linkedIN",
+        "username": "Kameron Robinson",
+        "url": "https://www.linkedin.com/in/robinsonkameron"
+      },
+      {
+        "network": "GitHub",
+        "username": "RobinsonKameron",
+        "url": "https://github.com/RobinsonKameron"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Apple Inc. - Retail",
+      "position": "Specialist",
+      "website": "http://www.apple.com",
+      "startDate": "2013-11-23",
+      "endDate": "",
+      "summary": "Apple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, the Mac and Apple Watch. Apple’s three software platforms — iOS, OS X and watchOS — provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay and iCloud. Apple’s 100,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it. ",
+      "highlights": [
+        "Strategic Consulting, including sales",
+        "Successfully provide a great customer experience",
+        "Participate as an active member of a large team to enrich lives"
+      ]
+    },
+    {
+      "company": "Mission Media",
+      "position": "Web developer Intern",
+      "website": "http://www.missionmedia.com",
+      "startDate": "2015-05",
+      "endDate": "2015-08",
+      "summary": "Mission is a design and digital agency that believes great work comes from the heart, mind and gut.  We are focused on helping our partners effectively utilize their owned media and native content to increase awareness, influence perception, inspire action and foster a brand's growth.",
+      "highlights": [
+        "Successfully designed and implemented web pages",
+        "Participated as an active member of a small development team",
+        "Learned how to navigate CMS, design more semantic web pages, and architecture css for the long run"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Maryland Baltimore County",
+      "area": "Information Systems",
+      "studyType": "Bachelor",
+      "startDate": "2013-06-01",
+      "endDate": "2016-12-23",
+      "gpa": "3.4 GPA",
+      "courses": [
+        "IS147 - Introduction Java",
+        "IS247 - Intermediate Java",
+        "IS410 - Basic SQL",
+        "IS448 - Web Development",
+        " IS450 - Network & Data Comm",
+        "MITOC - Intro to Algorithms"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Geographic Gram",
+      "publisher": "Kameron Robinson",
+      "releaseDate": "2015-04-23",
+      "website": "http://geogram-bitcamp2015.herokuapp.com",
+      "summary": "Geographic gram "
+    },
+    {
+      "name": "bckpckr",
+      "publisher": "Kameron Robinson, Saif Khan, & Ari Krumbein ",
+      "releaseDate": "2015-09-13",
+      "website": "github.com/robinsonkameron/bckpckr",
+      "summary": "An application targeted toward people who love to travel! Type in where you're headed and get back some handy information. -Built at Mhacks hackathon"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML5/CSS3",
+        "Javascript",
+        "",
+        "",
+        "Ruby on rails",
+        "Git",
+        "Github",
+        "NPM"
+      ]
+    },
+    {
+      "name": "OOP",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "Ruby"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Hobby speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photography",
+      "keywords": [
+        "Portraiture",
+        "Landscape",
+        "Street"
+      ]
+    },
+    {
+      "name": "Hackathons",
+      "keywords": [
+        "Bitcamp 2015",
+        "MHacks6 2015"
+      ]
+    }
+  ],
+  "references": []
+}
