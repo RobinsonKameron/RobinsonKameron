@@ -79,7 +79,11 @@
       ]
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "CODE2040":"\"Finalist\""
+    }
+  ],
   "publications": [
     {
       "name": "Geographic Gram",
@@ -102,13 +106,12 @@
       "level": "Intermediate",
       "keywords": [
         "HTML5/CSS3",
+        "PHP",
         "Javascript",
-        "",
-        "",
+        "MYSQL",
         "Ruby on rails",
         "Git",
-        "Github",
-        "NPM"
+        "Github"
       ]
     },
     {
@@ -127,7 +130,7 @@
     },
     {
       "language": "Spanish",
-      "fluency": "Hobby speaker"
+      "fluency": "Self-taught w/ Duolingo"
     }
   ],
   "interests": [
@@ -143,7 +146,8 @@
       "name": "Hackathons",
       "keywords": [
         "Bitcamp 2015",
-        "MHacks6 2015"
+        "MHacks6 2015",
+        "YHACK 11-6:8-2015"
       ]
     }
   ],
