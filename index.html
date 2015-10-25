@@ -16,25 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- link rel="shortcut icon" href="favicon.ico" / -->
         <link rel="stylesheet" href="resumeStyle.css" type="text/css">
-  
-
-  
-    <script>
-      window.onload = function () {
-        var toggleFloatingMenu = function() {
-          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
-          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
-        };
-
-        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
-        $( "[rel=tooltip]" ).tooltip();
-        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
-          e.preventDefault();
-          toggleFloatingMenu();
-        });
-        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
-      }
-    </script>
+	<script src="./resume.js"></script>
     <div class="container-fluid">
       <div class="row main clearfix">
         <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
@@ -425,6 +407,7 @@
                             <div class="space-top labels">
                                 <span class="label label-keyword">Bitcamp 2015</span>
                                 <span class="label label-keyword">MHacks6 2015</span>
+                                <span class="label label-keyword">YHACK 11-6:8-2015</span>                                
                             </div>
                           </li>
                       </ul>
