@@ -1,0 +1,431 @@
+//output: ../index.html
+html
+  head
+  body
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Kameron Robinson
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
+    link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans')
+    link(rel='stylesheet', type='text/css', href='https://cdn.rawgit.com/FortAwesome/Font-Awesome/307323a6a7fe69b7018cb49d2b7e43e1f4b6c92b/css/font-awesome.min.css')
+    style(type='text/css').
+      /*<!--*/
+      body {
+      font-size: 62.5%;
+      font-family: "Montserrat", sans-serif;
+      background-color: #171717;
+      color: #eeeeee;
+      }
+      .main-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      }
+      a {
+      color: #aaaaaa;
+      text-decoration: none;
+      -webkit-transition: color 0.175s ease 0.05s;
+      -moz-transition: color 0.175s ease 0.05s;
+      transition: color 0.175s ease 0.05s;
+      }
+      a:visited {
+      color: #aaaaaa;
+      }
+      a:hover,
+      a:focus {
+      color: #777777;
+      text-decoration: none;
+      }
+      .header {
+      text-align: center;
+      font-size: 2em;
+      margin: 0 10%;
+      }
+      .section {
+      padding: 1em 1em 0 1em;
+      margin-bottom: 1em;
+      }
+      .section .fa.left {
+      margin-right: 0.25em;
+      }
+      h1 {
+      color: #eeeeee;
+      font-size: 2em;
+      margin: 1em 0 0;
+      text-transform: uppercase;
+      }
+      h2 {
+      font-size: 3.5em;
+      margin: 0.83em 0;
+      text-transform: uppercase;
+      }
+      h3 {
+      color: #aaaaaa;
+      font-size: 1.75em;
+      margin: 1em 0 0;
+      }
+      h4 {
+      color: #666666;
+      font-size: 1.25em;
+      margin: 0 0 1em;
+      }
+      .profile {
+      font-family: "Montserrat";
+      font-size: 1em;
+      margin: 0;
+      }
+      .profile-name {
+      display: none;
+      }
+      .contact-header {
+      font-weight: bold;
+      }
+      .contact-list li,
+      .contact-list a {
+      color: #eeeeee;
+      }
+      .label {
+      margin-top: 0;
+      margin-bottom: 0.25em;
+      }
+      .fa {
+      font-size: 2em;
+      }
+      .left {
+      font-size: 1em;
+      }
+      .main {
+      margin: 0 10% 5em;
+      }
+      .skills {
+      margin-bottom: 0.5em;
+      }
+      p {
+      color: #aaaaaa;
+      font-family: "Open Sans";
+      font-size: 1.5em;
+      }
+      li {
+      color: #aaaaaa;
+      font-family: "Open Sans";
+      font-size: 1.5em;
+      }
+      .list-lines,
+      .list-lines li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      }
+      .list-lines li {
+      font-family: "Montserrat";
+      font-size: 1em;
+      }
+      .list-set,
+      .list-set li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      }
+      .list-set li {
+      font-family: "Montserrat";
+      display: inline-block;
+      }
+      .list-set li a {
+      display: inline-block;
+      }
+      .list-set li .fa {
+      min-width: 1em;
+      min-height: 1em;
+      }
+      /*Minor adjustment to icons.*/
+      .list-set li .fa-stack-overflow:before {
+      font-size: 0.9em;
+      position: relative;
+      top: -0.05em;
+      }
+      .list-set.keywords {
+      overflow: hidden;
+      }
+      .list-set.keywords li {
+      background-color: #444444;
+      color: #eeeeee;
+      padding: 0.4em 0.5em;
+      font-size: 1.2em;
+      display: inline-block;
+      margin: 1px;
+      float: left;
+      }
+      .profiles-list {
+      margin-top: 0.75em;
+      }
+      blockquote {
+      margin: 2em 1em;
+      padding: 1em;
+      border-left: 0.75em solid #666666;
+      font-family: "Open Sans";
+      font-size: 1.5em;
+      }
+      blockquote .name {
+      font-weight: bold;
+      font-family: "Montserrat";
+      margin-top: 1em;
+      }
+      ::-moz-selection {
+      background: #ddb6ff;
+      }
+      ::selection {
+      background: #ddb6ff;
+      }
+      @media (max-width: 768px) {
+      body {
+      font-size: 50%;
+      }
+      .header {
+      margin: 0 5%;
+      }
+      .main {
+      margin: 0 5%;
+      }
+      }
+      @media print {
+      body {
+      background: #FFFFFF;
+      color: #171717;
+      }
+      .main-wrap {
+      width: 100%;
+      }
+      .main {
+      margin: 0 0 1em 0;
+      }
+      .section {
+      page-break-inside: avoid;
+      }
+      .main .section:last-child {
+      margin-bottom: 0;
+      }
+      a {
+      color: #555555;
+      }
+      a:visited {
+      color: #555555;
+      }
+      a:hover,
+      a:focus {
+      color: #555555;
+      }
+      h1 {
+      color: #111111;
+      margin-top: 0.5em;
+      }
+      h2 {
+      margin: 0.25em 0;
+      }
+      h3 {
+      color: #555555;
+      }
+      h4 {
+      color: #bbbbbb;
+      }
+      .contact-list li,
+      .contact-list a {
+      color: #111111;
+      }
+      p {
+      color: #555555;
+      }
+      li {
+      color: #555555;
+      }
+      .list-set.keywords li {
+      background-color: transparent;
+      color: #555555;
+      border: 1px solid #aaaaaa;
+      }
+      blockquote {
+      border-color: #999999;
+      }
+      * {
+      /*Avoid printing the color at the start of the transition (Chrome issue).*/
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      transition: none !important;
+      }
+      
+      }
+      /*-->*/
+    //if lt IE 9
+      script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js')
+      script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js')
+    .main-wrap
+      header.header
+        h1 Kameron Robinson
+        .card.profile-card
+            span.profile-pic-container
+                .profile-pic
+                    img.media-object.img-circle.center-block(data-src='holder.js/100x100', alt='Kameron Robinson', src='./assets/images/self.png', itemprop='image' width="100px" filter='url(#drop-shadow)')
+        h3.label Student and Web Engineer
+        ul#contact.contact-list.list-lines
+          li.contact-header (667) 203-5897
+          li.contact-header
+            a(href='/cdn-cgi/l/email-protection#553e34646715203837367b303120')
+              span.__cf_email__(data-cfemail='3e555f0f0c7e4b535c5d105b5a4b') [email protected]
+              script(data-cfhash='f9e31', type='text/javascript').
+                /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */
+        ul#profiles.profiles-list.list-set
+          li
+            a.profile(href='www.twitter.com/KameronAR', title='Twitter')
+              i.fa.fa-twitter
+              span.profile-name Twitter
+          li
+            a.profile(href='https://www.linkedin.com/in/robinsonkameron', title='linkedIn')
+              i.fa.fa-linkedin
+              span.profile-name linkedIn
+          li
+            a.profile(href='https://github.com/RobinsonKameron', title='GitHub')
+              i.fa.fa-github
+              span.profile-name GitHub
+      main.main(role='main')
+        section#about.section
+          h2
+            i.fa.fa-user.left
+            | About
+          p
+            | Kameron was born in Baltimore city at JHU. He soon ventured into the world as a curious, sometimes mischievous kid. He discovered his love for programming in his sophomore year of college and is now pursuing a degree in Information Systems at University of Maryland Baltimore County. He is always learning new things and working hard to improve old skills!
+        section#work.section
+          h2
+            i.fa.fa-suitcase.left
+            | Work Experience
+          section.section-sub.section-sub-job
+            h3 Specialist, Apple Inc. - Retail
+            h4 November 2013 - Present
+            p
+              | Apple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, the Mac and Apple Watch. Apple’s three software platforms — iOS, OS X and watchOS — provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay and iCloud. Apple’s 100,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.
+            h4 Highlights
+            ul
+              li Strategic Consulting, including sales
+              li Successfully provide a great customer experience
+              li Participate as an active member of a large team to enrich lives
+          section.section-sub.section-sub-job
+            h3 Web developer Intern, Mission Media
+            h4 May 2015 - August 2015
+            p
+              | Mission is a design and digital agency that believes great work comes from the heart, mind and gut.  We are focused on helping our partners effectively utilize their owned media and native content to increase awareness, influence perception, inspire action and foster a brand's growth.
+            h4 Highlights
+            ul
+              li Successfully designed and implemented web pages
+              li Participated as an active member of a small development team
+              li
+                | Learned how to navigate CMS, design more semantic web pages, and architecture css for the long run
+          section.section-sub.section-sub-job
+            h3 iOS QA Engineer team - Intern, Apple 
+            h4  - Starting May 23rd, 2016
+            p In the Vally doing cool things with my team.
+        section#education.section
+          h2
+            i.fa.fa-graduation-cap.left
+            | Education
+          section.section-sub.section-sub-education
+            h3 Bachelor - University of Maryland Baltimore County
+            h4 June 2013 - December 2016
+            p Information Systems
+            h4 Courses
+            ul
+              li IS147 - Introduction Java
+              li IS247 - Intermediate Java
+              li IS410 - Basic SQL
+              li IS448 - Web Development
+              li  IS450 - Network & Data Comm
+              li IS 425 - Decision Support Systems
+              li IS420 - Database Application Development
+              li IS436 - Structured Systems Analysis and Design 
+              li IS 451 - Network Design and Management 
+              li MITOC - Intro to Algorithms
+        section#skills.section
+          h2
+            i.fa.fa-tasks.left
+            | Skills
+          section.section-sub.section-sub-skill
+            h3.skills Web Development
+            ul.list-set.keywords
+              li HTML5
+              li CSS3
+              li Javascript
+              li Node.JS
+              li Express
+              li PHP
+              li Ruby
+              li Rails
+              li Git
+              li Github
+              li MYSQL
+          section.section-sub.section-sub-skill
+            h3.skills OOP
+            ul.list-set.keywords
+              li Ruby
+              li Java
+          section.section-sub.section-sub-skill
+            h3.skills Technologies
+            ul.list-set.keywords
+              li Web services
+              li Google Maps API
+              li Google Translate API
+              li Open weather API
+              li Saber API
+              li AJAX
+        section#awards.section
+          h2
+            i.fa.fa-trophy.left
+            | Awards
+          section.section-sub.section-sub-award
+            h3 Code2040 Fellow - Entrance into the 2040 Fellowship 
+            h4   
+            p
+              | CODE2040's flagship program places top performing Black and Latino/a college level computer science students from around the country in an intensive summer career accelerator in the San Francisco Bay Area. Students intern at top tech companies and participate in a series of career building sessions on evenings and weekends.
+        section#publications.section
+          h2
+            i.fa.fa-book.left
+            | Publications
+          section.section-sub.section-sub-publication
+            h3 Geographic Gram
+            h4 23 April 2015
+            p Geographic gram 
+            h4
+              | Website: 
+              a(href='http://geogram-bitcamp2015.herokuapp.com') http://geogram-bitcamp2015.herokuapp.com
+          section.section-sub.section-sub-publication
+            h3 bckpckr
+            h4 13 September 2015
+            p
+              | An application targeted toward people who love to travel! Type in where you're headed and get back some handy information. -Built at Mhacks hackathon
+            h4
+              | Website: 
+              a(href='github.com/robinsonkameron/bckpckr') github.com/robinsonkameron/bckpckr
+        section#interests.section
+          h2
+            i.fa.fa-star.left
+            | Interests
+          section.section-sub.section-sub-interest
+            h3.skills Photography
+            ul.list-set.keywords
+              li Portraiture
+              li Landscape
+              li Street
+          section.section-sub.section-sub-interest
+            h3.skills Hackathons
+            ul.list-set.keywords
+              li Bitcamp 2015
+              li MHacks6 2015
+              li YHACK 11-6:8-2015
+        section#languages.section
+          h2
+            i.fa.fa-quote-left.left
+            | Languages
+          section.section-sub.section-sub-language
+            h3 English
+            h4 Fluency: Native speaker
+          section.section-sub.section-sub-language
+            h3 Spanish
+            h4 Fluency: Self-taught w/ Duolingo
+          
+    script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js")
