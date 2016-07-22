@@ -1,0 +1,43 @@
+//output: ../index.html
+html
+  head
+  body
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Kameron Robinson
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css')
+    link(rel="stylesheet" type="text/css" href='./assets/css/style.min.css')
+    script(type='text/javascript', language='javascript', src='/assets/js/language.json')
+
+
+    main#app
+      header#languageCradel
+        h1#language.animated.fadeInUp Hi.
+      section.aboutMe
+        article
+          h1 About the creator.
+          p 
+      section.wow
+        article
+          h1 What is it?
+          p These are some things I've made
+      section
+        article
+          h1 Experience
+          p 
+      section
+        article
+          h1 Photography
+          table(width='', cellpadding='10')
+            tr
+              td(align='center', valign='center')
+                img#photoOfTheDay(src="https://unsplash.it/900")
+                br
+                | Photo of the day
+              td(align='center', valign='center')
+                img#photoOfYesterday(src="https://unsplash.it/901")
+                br
+                | Yesterdays photo
+    script(type='text/javascript', language='javascript', src='/assets/js/main.js')

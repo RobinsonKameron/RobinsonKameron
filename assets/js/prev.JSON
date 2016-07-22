@@ -5,7 +5,7 @@
     "picture": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/11914252_1001296629914778_6298955244425644358_o.jpg",
     "email": "ka12@umbc.edu",
     "phone": "(667) 203-5897",
-    "website": "",
+    "website": "Coming soon",
     "summary": "Kameron was born in Baltimore city at JHU. He soon ventured into the world as a curious, sometimes mischievous kid. He discovered his love for programming in his sophomore year of college and is now pursuing a degree in Information Systems at University of Maryland Baltimore County. He is always learning new things and working hard to improve old skills!",
     "location": {
       "address": "",
@@ -21,7 +21,7 @@
         "url": "www.twitter.com/KameronAR"
       },
       {
-        "network": "linkedIn",
+        "network": "linkedIN",
         "username": "Kameron Robinson",
         "url": "https://www.linkedin.com/in/robinsonkameron"
       },
@@ -58,15 +58,6 @@
         "Participated as an active member of a small development team",
         "Learned how to navigate CMS, design more semantic web pages, and architecture css for the long run"
       ]
-    },
-    {
-      "company": "Apple ",
-      "position": "iOS QA Engineer - Intern",
-      "website": "Apple.com",
-      "startDate": "May 30th, 2016",
-      "endDate": "",
-      "summary": "In the Vally doing cool things with a team.",
-      "highlights": []
     }
   ],
   "volunteer": [],
@@ -77,27 +68,20 @@
       "studyType": "Bachelor",
       "startDate": "2013-06-01",
       "endDate": "2016-12-23",
-      "gpa": "MGPA 3.7",
+      "gpa": "3.4 GPA",
       "courses": [
         "IS147 - Introduction Java",
         "IS247 - Intermediate Java",
         "IS410 - Basic SQL",
         "IS448 - Web Development",
         " IS450 - Network & Data Comm",
-        "IS 425 - Decision Support Systems",
-        "IS420 - Database Application Development",
-        "IS436 - Structured Systems Analysis and Design ",
-        "IS 451 - Network Design and Management ",
         "MITOC - Intro to Algorithms"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Code2040 Fellow",
-      "date": "Summer 2015",
-      "awarder": "Entrance into the 2040 Fellowship ",
-      "summary": "CODE2040's flagship program places top performing Black and Latino/a college level computer science students from around the country in an intensive summer career accelerator in the San Francisco Bay Area. Students intern at top tech companies and participate in a series of career building sessions on evenings and weekends. "
+      "CODE2040":"\"Finalist\""
     }
   ],
   "publications": [
@@ -119,39 +103,23 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Intermediate++",
+      "level": "Intermediate",
       "keywords": [
-        "HTML5",
-        "CSS3",
-        "Javascript",
-        "Node.JS",
-        "Express",
+        "HTML5/CSS3",
         "PHP",
-        "Ruby",
-        "Rails",
+        "Javascript",
+        "MYSQL",
+        "Ruby on rails",
         "Git",
-        "Github",
-        "MYSQL"
+        "Github"
       ]
     },
     {
       "name": "OOP",
-      "level": "Seasoned",
+      "level": "Intermediate",
       "keywords": [
-        "Ruby",
-        "Java"
-      ]
-    },
-    {
-      "name": "Technologies",
-      "level": "",
-      "keywords": [
-        "Web services",
-        "Google Maps API",
-        "Google Translate API",
-        "Open weather API",
-        "Saber API",
-        "AJAX"
+        "Java",
+        "Ruby"
       ]
     }
   ],
