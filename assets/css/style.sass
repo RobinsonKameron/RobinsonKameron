@@ -8,7 +8,7 @@ main section
   margin: 0 auto
 
 header
-  height: 300px
+  height: 100%
   background-color: #a624b5
   background: -moz-linear-gradient(top, #a624b5 0%, #5d7aaa 100%)
   background: -webkit-linear-gradient(top, #a624b5 0%, #5d7aaa 100%)
@@ -16,6 +16,10 @@ header
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a624b5', endColorstr='#5d7aaa',GradientType=0 )
   border-bottom: 2px solid #eee
   margin-bottom: 50px
+  -webkit-transition: all 3s ease
+  -moz-transition: all 3s ease
+  -ms-transition: all 3s ease
+  transition: all 3s ease
 
 header h1
   padding: 0
@@ -42,9 +46,39 @@ section.aboutMe article
 
 article
 
+section.projects
+  font-weight: lighter
+
+section.projects > h1, h2, p
+  padding: 2em
+
+section.projects td
+   position: relative
+   width: 100%
+
+section.projects h3
+   position: absolute
+   top: 235px
+
+section.projects h3 span
+   color: white
+   font: bold 24px/45px Helvetica, Sans-Serif
+   letter-spacing: -1px
+   background: rgb(0, 0, 0)
+   background: rgba(0, 0, 0, 0.7)
+   padding: 10px
+
+
+section.projects img
+  width: 400px
+  height: 300px
+
 p
   padding: 0 50px
 
+.overlay
+  opacity: .5
+  background-color: random()
 
 @media only screen and (max-width: 800px)
   h1
@@ -55,9 +89,9 @@ p
       // color: white
     header h1
       font-size: 4em
-    table img
-      width: 100%
-      height: auto
+    img
+      width: 100% !important
+      height: auto !important
     table
       // border: 10px solid black
       display:block
