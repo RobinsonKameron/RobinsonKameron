@@ -24,7 +24,7 @@ section.projects img { width: 400px; height: 300px; }
 
 p { padding: 0 50px; }
 
-.overlay { opacity: .5; background-color: 0.62638; }
+.overlay { opacity: .5; background-color: 0.19414; }
 
 @media only screen and (max-width: 800px) { h1 { padding: 0 20px; } }
 
