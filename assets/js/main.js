@@ -1,15 +1,24 @@
+/*
+FOR WHEN I FORGET HOW TO MERGE TO MASTER 😂
+  git checkout updates
+  git pull origin master
+  git checkout master
+  git merge updates
+  git push
+
+*/
+
 (function() {
     'use strict';
     personalSite(json)
     document.getElementById('languageCradel').style.height = "300px"
 }());
 
+
+
 function personalSite(json) {
     var count = 0;
     var hellos = [];
-
-    // get all hellos for JSON object
-    console.log("JSON:", json);
     for (var i = 0; i < json.length; i++) {
         var str = json[i].Hello
         if (typeof(str) !== 'undefined') {
@@ -19,17 +28,24 @@ function personalSite(json) {
             str = ""
         }
     }
-    console.log("Hellos:", hellos);
 
-    var intervalID = window.setInterval(myCallback, 1500);
+    // OBJECTS
+    var language = document.getElementById("language");
+    var newHelloInterval = window.setInterval(pushNewHello, 1500);
 
-    function myCallback() {
+    // hoverBox.addEventListener("hover", test());
+
+
+    // FUNCTIONS
+    function pushNewHello() {
+        // get all hellos for JSON object
         var sayHello = hellos[count] + ","
-        document.getElementById("language").innerHTML = sayHello + " I'm Kam."
-        document.getElementById("language").className = "fadeIn`"
+        language.innerHTML = sayHello + " I'm Kam."
+        language.className = "fadeIn"
         count++
         if (count === hellos.length) {
             count = 0
         }
-    }
+    } // pushNewHello
+
 }

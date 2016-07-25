@@ -58,7 +58,7 @@ section.projects td
 
 section.projects h3
    position: absolute
-   top: 235px
+   top: 430px
 
 section.projects h3 span
    color: white
@@ -68,17 +68,45 @@ section.projects h3 span
    background: rgba(0, 0, 0, 0.7)
    padding: 10px
 
-
 section.projects img
-  width: 400px
-  height: 300px
+  width: 100%
+  height: auto
+
+  //
+  z-index: 0
+
+section.projects img:hover
+
+
+.hoverBox
+  position: absolute
+  background: #666363
+  z-index: 7
+  width: auto
+  height: 100%
+  opacity: 0
+  text-align: left !important
+  transition: all 1.5s ease-in-out
+  transform: scale(.80)
+
+.hoverBox:hover
+  opacity: .9
+  transform: scale(1)
+
+.hoverBox p
+  padding: 15%
+  z-index: 9
+  opacity: 1
+  font-size: 1.4em !important
+  color: white
 
 p
   padding: 0 50px
 
-.overlay
-  opacity: .5
-  background-color: random()
+p a
+  color: blue
+  text-decoration: none
+
 
 @media only screen and (max-width: 800px)
   h1
@@ -88,7 +116,7 @@ p
     body
       // color: white
     header h1
-      font-size: 4em
+      font-size: 1.8em
     img
       width: 100% !important
       height: auto !important
@@ -102,3 +130,13 @@ p
       // background-color: black
     main
       width: 100%
+    section.projects h3
+      top: 155px
+    div.hoverBox p
+      padding: 0px 20px
+      font-size: 1em
+
+@media only screen and (max-width: 400px)
+    div.hoverBox p
+      padding: 5% 20px
+      font-size: 1.4em
