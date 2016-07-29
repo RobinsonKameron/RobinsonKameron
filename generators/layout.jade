@@ -8,10 +8,16 @@ html
     link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css')
     link(rel="stylesheet" type="text/css" href='/assets/css/style.min.css')
     script(type='text/javascript', language='javascript', src='/assets/js/language.json')
+    script.
+          function dismissLoader() { 
+              document.getElementById('app').style.display = "block";
+              document.getElementsByClassName('loader')[0].style.display = "none";
+           }
     block title
       title Kameron Robinson
-  body(onload="alert('finished')")
-    main#app
+  body(onload="dismissLoader()")
+    .loader
+    main#app(style="display:none;")
       header#languageCradel(style="height:100%;")
         h1#language.animated.fadeInDown Hi, I'm Kam.
       block content
