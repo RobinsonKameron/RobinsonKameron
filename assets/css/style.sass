@@ -1,3 +1,7 @@
+html
+  font-family: Geneva, sans-serif
+  font-weight: 100
+
 body
   padding: 0
   margin: 0
@@ -48,6 +52,7 @@ article
 
 section.projects
   font-weight: lighter
+  padding-bottom: 100px
 
 section.projects > h1, h2, p
   padding: 2em
@@ -120,6 +125,20 @@ footer
   -moz-transition: all 3s ease
   -ms-transition: all 3s ease
   transition: all 3s ease
+
+footer nav ul
+  display: inline
+  list-style-type: none
+  padding: 0
+  width: 60px
+
+footer nav li
+  display: inline
+
+footer nav li a
+  color: white
+  margin-left: 10px
+  text-decoration: none
 
 @media only screen and (max-width: 800px)
   h1
