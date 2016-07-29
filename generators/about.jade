@@ -1,0 +1,25 @@
+//output: ../pages/about.html
+extends ./layout.jade
+
+block title
+  title Article Title
+
+block content
+  section.about
+    article
+    
+      h1 About the artist.
+      section
+        article
+          h1 Photography.
+          table(width='', cellpadding='10')
+            tr
+              td(align='center', valign='center')
+                img#photoOfTheDay(src="https://unsplash.it/900")
+                br
+                | Photo of the day
+              td(align='center', valign='center')
+                img#photoOfYesterday(src="https://unsplash.it/901")
+                br
+                | Yesterdays photo
+  include ./includes/foot.jade
