@@ -1,103 +1,57 @@
 //output: ../index.html
-html
-  head
-  body
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Kameron Robinson
-    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
-    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css')
-    link(rel="stylesheet" type="text/css" href='./assets/css/style.min.css')
-    script(type='text/javascript', language='javascript', src='/assets/js/language.json')
 
+extends ./layout.jade
 
-    main#app
-      header#languageCradel
-        h1#language.animated.fadeInDown Hi, I'm Kam.
-      //- section.aboutMe
-      //-   article
-      //-     h1 About the creator.
-      //-     p I am Kameron. I love front end engineering, essintally making stuff look great is my passion. I've worked at some great places Apple, Mission Media, Quintain Marketing. I've discovered from my experiences im happies making products for consumers. I'm good at making people smile, until im not. Enjoy my work.
-      //- section
-      //-   article
-      //-     h1 Experience.
-      //-     span I've played various roles, Software E, Quality Assurance E, Frontend E, all the E(ngineering) stuff. 
-      //- section
-      //-   article
-      //-     h1
-      section.projects
-        article
-          h1 Projects.
-          table(width='', cellpadding='10')
-            tr
-              td(align='center', valign='center')
-                div.hoverBox
-                  p Temere is a Latin word that means "by chance" this webapp a new tab buddy designed to greet you with an inspiring quote, dope shapes, and iconic backgrounds. I'm using Firebase + Facebook to create an interactive todo list you can access anywhere in the world. Set
-                    a(href="http://temere.herokuapp.com") Temere.space 
-                    | as your homepage and start to fly. 
-                  i JS, JADE, and SASS
-                img(src="./assets/images/temere.space.jpg")
-                h3
-                  span Temere.Space
-            tr
-              td(align='center', valign='center')
-                div.hoverBox
-                  p Bckpckr is a hackathon proof of concept, built with ROR4 and designed to make your world backpacking experience simpler. Give us date's and location, we will give you the perfect itinerary. Just think of this as your best friend who always knows exactly where to take you!
-                  i ROR, JS, SASS, JADE
-                img(src="./assets/images/bckpckr.jpg")
-                h3 
-                  span Bckpckr
-            tr
-              td(align='center', valign='center')
-                div.hoverBox
-                  p A.IM is a Node.js 
-                  i NODE.JS, ES6, SASS
-                img(src="./assets/images/aim.jpg")
-                h3 
-                  span Auto.Inventory Management
-            tr
-              td(align='center', valign='center')
-                div.hoverBox
-                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                img(src="./assets/images/psg.jpg")
-                h3 
-                  span Project Spring Grove
-            tr
-              td(align='center', valign='center')
-                div.hoverBox
-                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                img(src="./assets/images/ojas.jpg")
-                h3 
-                  span Ojas wellness
-            tr
-              td(align='center', valign='center')
-                div.hoverBox
-                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                img(src="./assets/images/geogram.jpg")
-                h3 
-                  span Geographic gram
-                
-      //- section
-      //-   article
-      //-     h1 Photography.
-      //-     table(width='', cellpadding='10')
-      //-       tr
-      //-         td(align='center', valign='center')
-      //-           img#photoOfTheDay(src="https://unsplash.it/900")
-      //-           br
-      //-           | Photo of the day
-      //-         td(align='center', valign='center')
-      //-           img#photoOfYesterday(src="https://unsplash.it/901")
-      //-           br
-      //-           | Yesterdays photo
-    section
-      article.construction
-        p(style="font-size:.1em;position:fixed;top:0;right:0;") Site is currently under construction copyright Kameron Robinson (c) 2016 All Rights Reserved.
-      footer#navFooter
-
-          
-
-
-        </footer>
-    script(type='text/javascript', language='javascript', src='/assets/js/main.js')
+block content
+  section.projects
+    article
+      h1 Projects.
+      table(width='', cellpadding='10')
+        tr
+          td(align='center', valign='center')
+            div.hoverBox
+              p Temere is a Latin word that means "by chance" this webapp a new tab buddy designed to greet you with an inspiring quote, dope shapes, and iconic backgrounds. I'm using Firebase + Facebook to create an interactive todo list you can access anywhere in the world. Set
+                a(href="http://temere.herokuapp.com") Temere.space 
+                | as your homepage and start to fly. 
+              i JS, JADE, and SASS
+            img(src="./assets/images/temere.space.jpg")
+            h3
+              span Temere.Space
+        tr
+          td(align='center', valign='center')
+            div.hoverBox
+              p Bckpckr is a hackathon proof of concept, built with ROR4 and designed to make your world backpacking experience simpler. Give us date's and location, we will give you the perfect itinerary. Just think of this as your best friend who always knows exactly where to take you!
+              //- i ROR, JS, SASS, JADE
+            img(src="./assets/images/bckpckr.jpg")
+            h3 
+              span Bckpckr
+        tr
+          td(align='center', valign='center')
+            div.hoverBox
+              p A.IM is a Node.js 
+              //- i NODE.JS, ES6, SASS
+            img(src="./assets/images/aim.jpg")
+            h3 
+              span Auto.Inventory Management
+        tr
+          td(align='center', valign='center')
+            div.hoverBox
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            img(src="./assets/images/psg.jpg")
+            h3 
+              span Project Spring Grove
+        tr
+          td(align='center', valign='center')
+            div.hoverBox
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            img(src="./assets/images/ojas.jpg")
+            h3 
+              span Ojas wellness
+        tr
+          td(align='center', valign='center')
+            div.hoverBox
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            img(src="./assets/images/geogram.jpg")
+            h3 
+              span Geographic gram
+   include ./includes/foot.jade
