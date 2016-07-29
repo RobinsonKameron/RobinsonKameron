@@ -3,7 +3,7 @@
 extends ./layout.jade
 
 block content
-  section.projects
+  section.projects.sheet
     article
       h1 Projects.
       table(width='', cellpadding='10')
@@ -13,7 +13,6 @@ block content
               p Temere is a Latin word that means "by chance" this webapp a new tab buddy designed to greet you with an inspiring quote, dope shapes, and iconic backgrounds. I'm using Firebase + Facebook to create an interactive todo list you can access anywhere in the world. Set
                 a(href="http://temere.herokuapp.com") Temere.space 
                 | as your homepage and start to fly. 
-              i JS, JADE, and SASS
             img(src="./assets/images/temere.space.jpg")
             h3
               span Temere.Space
@@ -21,16 +20,13 @@ block content
           td(align='center', valign='center')
             div.hoverBox
               p Bckpckr is a hackathon proof of concept, built with ROR4 and designed to make your world backpacking experience simpler. Give us date's and location, we will give you the perfect itinerary. Just think of this as your best friend who always knows exactly where to take you!
-              <!--i ROR, JS, SASS, JADE-->
-              
             img(src="./assets/images/bckpckr.jpg")
             h3 
               span Bckpckr
         tr
           td(align='center', valign='center')
             div.hoverBox
-              p A.IM is a Node.js 
-              <!--i NODE.JS, ES6, SASS-->
+              p A.IM is a Node.js application designed for car dealerships to have live tracking of their vehicles. Each vehicle has GPS tracking that sends its current location to the server.
               
             img(src="./assets/images/aim.jpg")
             h3 
@@ -38,22 +34,23 @@ block content
         tr
           td(align='center', valign='center')
             div.hoverBox
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              p Project Spring Grove was a redesign of firstepisodeclinic.org both for the frontend as well as the backend architecture. Being the lead developer on this project was super exciting for me! I used PHP5, CSS3 (bootstrap), & HTML5
             img(src="./assets/images/psg.jpg")
             h3 
               span Project Spring Grove
         tr
           td(align='center', valign='center')
             div.hoverBox
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              p While I interned at Mission Media I was able to take part in content creation, and design research for ojaswellness.com. I used cold fusion, PHP5, and Javascript to transform this page to something special.
             img(src="./assets/images/ojas.jpg")
             h3 
               span Ojas wellness
         tr
           td(align='center', valign='center')
             div.hoverBox
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              p Geographic gram was the first thing I ever built at a hackathon. GeoGram essintally allow's you to see user images from all over the world with a simple place's search! I learned PHP, JS, HTML5/CSS3, Google Maps API, and Instagram API! 
             img(src="./assets/images/geogram.jpg")
             h3 
               span Geographic gram
+              
    include ./includes/foot.jade

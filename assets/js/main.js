@@ -11,7 +11,9 @@ FOR WHEN I FORGET HOW TO MERGE TO MASTER 😂
 (function() {
     'use strict';
     init(json);
-    document.getElementById('languageCradel').style.height = "300px";
+    setTimeout(function () {
+      // document.getElementById('languageCradel').style.height = "300px";
+    }, 1000);
 }());
 
 
@@ -60,9 +62,9 @@ function init(json) {
     function hideFooter() {
         navFooter.style.height = "20px";
         if (userHasScrolled) {
-            navFooter.style.transition = ".5s ease";
-            navFooter.style.height = "50px";
-            userHasScrolled = false;
+            // navFooter.style.transition = ".5s ease";
+            // navFooter.style.height = "50px";
+            // userHasScrolled = false;
         }
     }
 
