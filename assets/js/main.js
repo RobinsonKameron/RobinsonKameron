@@ -58,7 +58,7 @@ function init(json) {
     }
 
     function hideFooter() {
-        navFooter.style.height = "10px";
+        navFooter.style.height = "20px";
         if (userHasScrolled) {
             navFooter.style.transition = ".5s ease";
             navFooter.style.height = "50px";
