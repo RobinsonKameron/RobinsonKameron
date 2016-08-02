@@ -67,4 +67,13 @@ function init(json) {
             // userHasScrolled = false;
         }
     }
+
+    var focusQuery = document.querySelectorAll('.fullScreenHoverBox');
+    for (var i = 0; i < focusQuery.length; i++) {
+      focusQuery[i].addEventListener("click", function(e) {
+              if (e.target.className == "fullScreenHoverBox") {
+                  console.log(this);
+              }
+          });
+    }//loop
 }
