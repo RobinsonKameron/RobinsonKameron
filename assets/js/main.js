@@ -16,8 +16,6 @@ FOR WHEN I FORGET HOW TO MERGE TO MASTER 😂
     }, 1000);
 }());
 
-
-
 function init(json) {
     'use strict';
     var count = 0;
@@ -37,8 +35,6 @@ function init(json) {
     var newHelloInterval = window.setInterval(pushNewHello, 2000);
 
     // hoverBox.addEventListener("hover", test());
-
-
     // FUNCTIONS
     function pushNewHello() {
         // get all hellos for JSON object
