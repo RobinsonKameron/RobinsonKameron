@@ -11,8 +11,8 @@ FOR WHEN I FORGET HOW TO MERGE TO MASTER 😂
 (function() {
     'use strict';
     init(json);
-    setTimeout(function () {
-      // document.getElementById('languageCradel').style.height = "300px";
+    setTimeout(function() {
+        // document.getElementById('languageCradel').style.height = "300px";
     }, 1000);
 }());
 
@@ -67,6 +67,4 @@ function init(json) {
             // userHasScrolled = false;
         }
     }
-
-    
 }
