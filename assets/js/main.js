@@ -65,11 +65,14 @@ function init(json) {
     }
 
     var focusQuery = document.querySelectorAll('.fullScreenHoverBox');
+    var projectBlurbs = [];
     for (var i = 0; i < focusQuery.length; i++) {
+      projectBlurbs[i] = focusQuery[i].parentNode.parentNode.children[0].children[0].innerHTML;
       focusQuery[i].addEventListener("click", function(e) {
               if (e.target.className == "fullScreenHoverBox") {
                   console.log(this);
               }
           });
     }//loop
+    console.log(projectBlurbs);
 }
