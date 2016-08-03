@@ -32,7 +32,7 @@ section.sheet { padding: 5px; box-shadow: -1px 1px 20px 1px #eee; margin-top: 40
 
 .hoverBox p { padding: 15%; z-index: 9; opacity: 1; font-size: 1.4em !important; color: white; }
 
-.mobileModal { position: fixed; background: #666363; z-index: 1; width: auto; height: 100%; opacity: 0; text-align: left !important; transition: all 1.5s ease-in-out; transform: scale(0.8); }
+.mobileModal { position: fixed; background: #666363; z-index: 1; width: auto; height: 100%; opacity: 0; text-align: left !important; transition: all 1.5s ease-in-out; transform: scale(0.8); top: 0; }
 
 .mobileModal p { padding: 15%; z-index: 9; opacity: 1; font-size: 1.4em !important; color: white; }
 
