@@ -53,6 +53,8 @@ function init(json) {
 
     window.onscroll = function(e) {
         userHasScrolled = true;
+        document.querySelector('.mobileModal').style.opacity = 0;
+        document.querySelector('.mobileModal').style.zIndex = -1;
     }
 
     function hideFooter() {
@@ -65,12 +67,17 @@ function init(json) {
     }
 
     var focusQuery = document.querySelectorAll('.fullScreenHoverBox');
+
     var projectBlurbs = [];
     for (var i = 0; i < focusQuery.length; i++) {
       projectBlurbs[i] = focusQuery[i].parentNode.parentNode.children[0].children[0].innerHTML;
+      focusQuery[i].id = i;
       focusQuery[i].addEventListener("click", function(e) {
               if (e.target.className == "fullScreenHoverBox") {
-                  console.log(this);
+                var thisBlurb = Number(this.id);
+                document.querySelector('.mobileModal').style.opacity = 1;
+                document.querySelector('.mobileModal').style.zIndex = 10;
+                document.getElementById('content').innerHTML = projectBlurbs[thisBlurb];
               }
           });
     }//loop
