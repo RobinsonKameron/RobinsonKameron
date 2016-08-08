@@ -75,7 +75,7 @@ function init(json) {
       focusQuery[i].addEventListener("click", function(e) {
               if (e.target.className == "fullScreenHoverBox") {
                 var thisBlurb = Number(this.id);
-                document.querySelector('.mobileModal').style.opacity = 1;
+                document.querySelector('.mobileModal').style.opacity = .9;
                 document.querySelector('.mobileModal').style.zIndex = 10;
                 document.getElementById('content').innerHTML = projectBlurbs[thisBlurb];
               }
