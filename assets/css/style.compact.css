@@ -50,6 +50,10 @@ footer nav li { display: inline; }
 
 footer nav li a { color: white; margin-left: 10px; text-decoration: none; }
 
+header img { height: 50px; width: auto; margin-left: 15px; }
+
+header .socialIcons { position: fixed; bottom: 0; right: 0; }
+
 /* Absolute Center Spinner */
 .loading { position: fixed; z-index: 999; height: 2em; width: 2em; overflow: show; margin: auto; top: 0; left: 0; bottom: 0; right: 0; }
 
@@ -113,6 +117,7 @@ footer nav li a { color: white; margin-left: 10px; text-decoration: none; }
   td { display: block !important; clear: both !important; }
   main { width: 100%; }
   section.projects h3 { top: 155px; }
-  div.hoverBox p { padding: 0px 20px; font-size: 1em; } }
+  div.hoverBox p { padding: 0px 20px; font-size: 1em; }
+  header .socialIcons { position: static; width: 50px; display: inline-block; } }
 
 @media only screen and (max-width: 400px) { div.hoverBox p { padding: 5% 20px; font-size: 1.4em; } }

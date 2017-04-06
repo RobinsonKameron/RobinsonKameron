@@ -4,12 +4,12 @@ var json = [{
     "How are you?": "Whats up!?",
     "Im good": "Chillin",
     "Verywell": "Just made a dope app!"
-},{
+}, {
     "Language": "Spanish",
     "Hello": "Hola",
     "How are you?": "Como esta?",
     "Im good": "Muy bien!"
-},{
+}, {
     "Language": "French",
     "Hello": "Bonjour",
     "How are you?": "Ca-va?",
@@ -35,7 +35,7 @@ var json = [{
     "Verywell": "Pri-krasni"
 }, {
     "Language": "Amheric",
-    "Hello": "teanaste'lle'n",
+    "Hi": "teanaste'lle'n",
     "Hello Informal": "tadiyass",
     "Bye": "teanaste'lle'n",
     "Bye Informal": "tadiyass",

@@ -39,7 +39,8 @@ function init(json) {
     function pushNewHello() {
         // get all hellos for JSON object
         var sayHello = hellos[count] + ",";
-        language.innerHTML = sayHello + " I'm Kam.";
+        // language.innerHTML = sayHello + " I'm Kam.";
+        language.innerHTML = sayHello
         language.className = "fadeIn";
         count++;
         if (count === hellos.length) {
