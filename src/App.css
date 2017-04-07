@@ -78,7 +78,6 @@ nav a {
 }
 
 .ImagePanel {
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('../public/castle.jpg');*/
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -92,7 +91,7 @@ nav a {
 
 .right-panel {
     grid-column: 1 / 6;
-    grid-row: 3 / 3;
+    grid-row: 3/ 6;
     font-size: 1.15em;
     line-height: 1.4;
     padding: 20px;

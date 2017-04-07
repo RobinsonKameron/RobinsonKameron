@@ -14,7 +14,7 @@ const Header = (props) => {
 
             <NavLink activeStyle={{
               fontWeight: 'bold',
-              color: 'rgb(136, 136, 136)'
+              color: 'grey'
             }} to='/about'>About</NavLink>
 
           </h1>
@@ -23,8 +23,8 @@ const Header = (props) => {
 
             <NavLink activeStyle={{
               fontWeight: 'bold',
-              color: 'rgb(136, 136, 136)'
-            }} to='/projects'>Projects</NavLink>
+              color: 'grey'
+            }} to='/projects'><span style={{color: 'rgba(18, 38, 142, 0.68)'}}>|</span> Projects</NavLink>
 
           </h1>
         </div>
