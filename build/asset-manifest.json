@@ -1,9 +1,11 @@
 {
   "main.css": "static/css/main.6c61e8a4.css",
   "main.css.map": "static/css/main.6c61e8a4.css.map",
-  "main.js": "static/js/main.686e4bd4.js",
-  "main.js.map": "static/js/main.686e4bd4.js.map",
+  "main.js": "static/js/main.d635e0c2.js",
+  "main.js.map": "static/js/main.d635e0c2.js.map",
   "static/media/castle.jpg": "static/media/castle.f94e02d8.jpg",
+  "static/media/temere.png": "static/media/temere.e147296a.png",
   "static/media/tempo.gif": "static/media/tempo.ebe855c1.gif",
-  "static/media/whoIs.jpg": "static/media/whoIs.33b76c1d.jpg"
+  "static/media/whoIs.jpg": "static/media/whoIs.33b76c1d.jpg",
+  "static/media/youmeWorld.png": "static/media/youmeWorld.a8c54119.png"
 }
