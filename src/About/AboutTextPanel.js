@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 
 const AboutText = (props) => {
   let stories = props.data.myStories.short.map((story) =>
-    <p>
+    <p className='ultralight'>
       {story}
     </p>
   );
