@@ -77,24 +77,24 @@ nav a {
     color: #fff;
 }
 
+.right-panel {
+    grid-column: 1 / 6;
+    grid-row: 5/ 6;
+    font-size: 1.15em;
+    line-height: 1.4;
+    padding: 20px;
+}
+
 .ImagePanel {
     color: #fff;
     display: flex;
     flex-direction: column;
     grid-column: 1 / 6;
-    grid-row: 1 / 3;
+    grid-row: 1 / 5;
 }
 
 .ImagePanel h3 {
     margin-top: auto;
-}
-
-.right-panel {
-    grid-column: 1 / 6;
-    grid-row: 3/ 6;
-    font-size: 1.15em;
-    line-height: 1.4;
-    padding: 20px;
 }
 
 .App-logo {
@@ -158,6 +158,11 @@ nav a {
 }
 
 
+.social-bar {
+    grid-column: 3 / 3;
+    grid-row: 6 / 8;
+}
+
 /* Mobile */
 
 @media (min-width: 500px) {
@@ -165,13 +170,14 @@ nav a {
         grid-template-columns: 1fr 1fr;
     }
     .ImagePanel {
-        /*grid-column: 1 / 5;*/
-        grid-row: 1 / 3;
+        grid-column: 1 / 5;
+        grid-row: 1 / 5;
     }
     .right-panel {
         grid-column: 1 / 5;
-        grid-row: 3 / 6;
+        grid-row: 5 / 6;
     }
+
 }
 
 @media (min-width: 950px) {
@@ -182,7 +188,7 @@ nav a {
     }
     .ImagePanel {
         grid-column: 1 / 3;
-        grid-row: 1 / 6;
+        grid-row: 1 / 8;
     }
     .right-panel {
         grid-column: 3 / 3;
