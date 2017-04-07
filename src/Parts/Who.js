@@ -1,18 +1,16 @@
-import React, {PropTypes} from 'react';
+import React, { PropTypes } from 'react';
 import whoIs from '../../public/whoIs.jpg';
 
-export default class Who extends React.Component {
-  constructor (props) {
-    super(props);
-  }
-
-  render () {
-    return (
-      <div className='Who'>
-        <img src={whoIs} />
-      </div>);
-  }
-}
+const Who = (props) => {
+  return (
+    <div className='Who'>
+      <img src={whoIs} alt='who is Kam?' />
+    </div>
+  );
+};
 
 Who.propTypes = {
+  whoIs: PropTypes.string
 };
+
+export default Who;
