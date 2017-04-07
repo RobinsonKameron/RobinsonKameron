@@ -16,7 +16,7 @@
         ]
     },
     {
-        "img":"http://robinsonkameron.co/static/media/",
+        "img":"http://robinsonkameron.co/static/media/youmeWorld.a8c54119.png",
         "title": "Youme.World",
         "about": "Youme.world is the easiest way for you to plan a trip that you may not have money for at the moment. Imagine a whole new way to do this with your friends too!",
         "tech": ["Node.js",
@@ -25,7 +25,7 @@
             "Mongodb"
         ]
     }, {
-        "img":"http://robinsonkameron.co/static/media/",
+        "img":"http://robinsonkameron.co/static/media/temere.e147296a.png",
         "title": "Temere.space",
         "about": "Temere.space or random space is a homepage space that greets you and allows you to see any todos you may have!",
         "tech": ["HTML5", "CSS3", "jQuery","Firebase"]
