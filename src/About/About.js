@@ -12,9 +12,10 @@ export default class About extends React.Component {
   render () {
     return (
       <div className='Wrapper' >
+        <AboutTextPanel data={json}>
+          <SocialBar />
+        </AboutTextPanel>
         <ImagePanel img={kamPhoto} alt='Kam-Photo' id='kamPhoto' />
-        <AboutTextPanel data={json} />
-        <SocialBar />
         {/* <embed src={resume} width="600" height="500" alt="pdf"/> */ }
       </div>
     );

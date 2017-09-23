@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const AboutText = ({ data }) => {
+const AboutText = ({ data, children }) => {
   return (
     <section className='right-panel'>
       <p style={{ 'fontSize': '2em', 'margin': '0'}}>Hi there i'm KAM!</p>
@@ -9,12 +9,14 @@ const AboutText = ({ data }) => {
           {story}
         </p>
       )}
+      {children}
     </section>
   );
 };
 
 AboutText.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object.isRequired,
+  children: PropTypes.node
 };
 
 export default AboutText;

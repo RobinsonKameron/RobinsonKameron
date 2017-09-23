@@ -20,9 +20,7 @@ class App extends Component {
           <Header />
 
           <Switch>
-            <Route exact path='/' component={null} render={() => (
-              <Redirect to='/about' />
-                        )} />
+            <Route exact path='/' component={null} render={() => (<Redirect to='/about' /> )} />
             <Route exact path='/about' component={About} />
             <Route path='/who' component={Who} />
             <Route path='/projects' component={Projects} />
